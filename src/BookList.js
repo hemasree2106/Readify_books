@@ -3,7 +3,7 @@ import BookCard from "./BookCard";
 import BookModal from "./BookModal";
 import "./BookList.css";
 
-const API_KEY = "AIzaSyBP98oX9mvX6tE_SQvQzLK2SKPZYjPJqWo";
+const API_KEY = "//your google API key";
 
 function BookList({ searchTerm }) {
   const [books, setBooks] = useState([]);
